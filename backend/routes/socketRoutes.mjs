@@ -1,9 +1,10 @@
 import express from "express";
+
 import {
   sendMessageToIndex,
   sendMessageToStock,
   broadcastMessage,
-} from "./socketService.mjs";
+} from "../services/socketService.mjs";
 
 const router = express.Router();
 
