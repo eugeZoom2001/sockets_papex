@@ -1,0 +1,13 @@
+curl -X POST http://localhost:8800/messages \
+-H "Content-Type: application/json" \
+-d '{"recipient": "index", "message": "Hola index!"}'
+
+
+
+curl -X POST http://localhost:8800/messages \
+-H "Content-Type: application/json" \
+-d '{"recipient": "stock", "message": "Hola stock!"}'
+
+curl -X POST http://localhost:8800/messages \
+-H "Content-Type: application/json" \
+-d '{"recipient": "broadcast", "message": "Hello everyone!"}'
